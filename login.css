@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ecf0f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container */
+  .container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Tabs (Login/Register) */
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background: #f0f0f3;
+    border: none;
+    color:black;
+    padding: 10px;
+    font-size: 18px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .tab:hover {
+    background: #3498db;
+    color: white;
+  }
+  
+  .tab.active {
+    background: #3498db;
+    color: white;
+  }
+  
+  /* Form Container */
+  .form-container {
+    display: none;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #ecf0f3;
+    margin: 8px 0;
+    font-size: 16px;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: inset -3px -3px 7px #3498db, inset 3px 3px 5px #1abc9c;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #3498db;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  

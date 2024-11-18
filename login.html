@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & Register</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Login / Register Tabs -->
+    <div class="tabs">
+      <button class="tab" id="login-tab">Login</button>
+      <button class="tab" id="register-tab">Register</button>
+    </div>
+
+    <!-- Login Form -->
+    <div class="form-container" id="login-form">
+      <h2>Login</h2>
+      <form action="#">
+        <div class="input-container">
+          <input type="text" id="login-username" placeholder="Username" required>
+        </div>
+        <div class="input-container">
+          <input type="password" id="login-password" placeholder="Password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <!-- Register Form -->
+    <div class="form-container" id="register-form">
+      <h2>Register</h2>
+      <form action="#">
+        <div class="input-container">
+          <input type="text" id="register-username" placeholder="Username" required>
+        </div>
+        <div class="input-container">
+          <input type="email" id="register-email" placeholder="Email" required>
+        </div>
+        <div class="input-container">
+          <input type="password" id="register-password" placeholder="Password" required>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Gaya untuk Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #2c2f33; /* Warna latar belakang gelap */
+  box-shadow: -3px -3px 7px #444, 3px 3px 5px #1c1e20; /* Bayangan yang lebih gelap */
+  z-index: 1000;
+  padding: 10px 20px;
+}
+
+.menu {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff; /* Teks putih */
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff; /* Teks putih */
+  font-weight: 400;
+  padding: 10px 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: -3px -3px 7px #444, 3px 3px 5px #1c1e20; /* Bayangan lebih gelap */
+}
+
+.menu ul a:hover {
+  color: #3498db;
+  box-shadow: inset -3px -3px 7px #444, inset 3px 3px 5px #1c1e20; /* Efek hover gelap */
+}
+
+/* Gaya untuk Home Section */
+body {
+  background: #23272a; /* Latar belakang utama gelap */
+}
+
+.home-section {
+  text-align: center;
+  margin-top: 120px; /* Jarak agar berada di bawah navbar */
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-section h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff; /* Teks putih */
+  margin-bottom: 15px;
+}
+
+.home-section p {
+  font-size: 18px;
+  color: #dcdde1; /* Teks abu-abu terang */
+  line-height: 1.6;
+}
+
+.home-section strong {
+  color: #3498db; /* Teks biru untuk penekanan */
+}
+
+/* Scrollbar (opsional) */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
